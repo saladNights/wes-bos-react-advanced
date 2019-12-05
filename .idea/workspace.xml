@@ -2,503 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6c35f-c995-4082-99ac-106fc0e9b31f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Advanced-React/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/.idea/wes-bos-react-adv.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/.graphqlconfig.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/prisma.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/createServer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/mail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/stripe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/backend/src/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/AddToCart.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/Cart.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/CartCount.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/CreateItem.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/Item.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/Nav.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/Order.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/Pagination.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/PleaseSignIn.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/RemoveFromCart.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/RequestReset.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/Signup.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/SingleItem.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/TakeMyMoney.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/AddToCart.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/Cart.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/CartCount.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/CreateItem.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/Item.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/Nav.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/Order.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/Pagination.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/RemoveFromCart.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/RequestReset.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/Signup.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/SingleItem.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/__snapshots__/TakeMyMoney.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/formatMoney.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/mocking.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/__tests__/sample.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/AddToCart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/CartCount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/CartItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/CreateItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/DeleteItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/ErrorMessage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Order.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/OrderList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Pagination.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Permissions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/PleaseSignIn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/RemoveFromCart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/RequestReset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Reset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Signin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Signout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/Signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/SingleItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/TakeMyMoney.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/UpdateItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/CartStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/CloseButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/DropDown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/Form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/ItemStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/NavStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/OrderItemStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/OrderStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/PaginationStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/PriceTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/SickButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/Supreme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/Table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/components/styles/Title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/jest.setup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/lib/calcTotalPrice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/lib/formatMoney.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/lib/testUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/lib/withData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/notes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/_document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/order.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/orders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/permissions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/reset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/sell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/pages/update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/static/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/static/nprogress.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/finished-application/frontend/static/radnikanext-medium-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/.graphqlconfig.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/src/stripe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/src/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/backend/variables.env.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/ErrorMessage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/Meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/CartStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/CloseButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/DropDown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/Form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/ItemStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/NavStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/OrderItemStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/OrderStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/PaginationStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/PriceTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/SickButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/Supreme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/Table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/components/styles/Title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/jest.setup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/lib/calcTotalPrice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/lib/formatMoney.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/lib/testUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/lib/withData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/pages/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/pages/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/pages/sell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/static/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/static/nprogress.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/sick-fits/frontend/static/radnikanext-medium-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/05/frontend/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/05/frontend/components/Meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/05/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/05/frontend/components/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/05/frontend/pages/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/05/frontend/pages/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/05/frontend/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/05/frontend/pages/sell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/07/frontend/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/07/frontend/components/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/08/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/08/frontend/components/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/09/frontend/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/10/frontend/pages/_document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/12/backend/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/12/backend/prisma.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/12/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/13/backend/src/createServer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/13/backend/src/db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/13/backend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/13/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/13/backend/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/13/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/15/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/15/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/15/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/15/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/15/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/15/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/16/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/17/frontend/components/Item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/17/frontend/components/Items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/17/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/17/frontend/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/17/frontend/pages/items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/18/frontend/components/CreateItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/18/frontend/components/Items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/18/frontend/pages/sell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/19/frontend/components/CreateItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/20/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/20/backend/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/20/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/20/frontend/components/UpdateItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/20/frontend/pages/update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/21/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/21/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/21/frontend/components/DeleteItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/21/frontend/components/Item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/22/frontend/components/SingleItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/22/frontend/pages/item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/24/backend/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/24/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/24/frontend/components/Items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/24/frontend/components/Pagination.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/24/frontend/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/24/frontend/pages/items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/25/backend/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/25/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/25/backend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/25/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/25/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/26/frontend/components/Signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/26/frontend/pages/signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/27/backend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/27/backend/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/27/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/27/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/27/frontend/components/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/28/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/28/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/28/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/28/frontend/components/Signin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/28/frontend/components/Signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/28/frontend/components/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/28/frontend/pages/signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/29/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/29/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/29/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/29/frontend/components/Signout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/29/frontend/components/styles/NavStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/30/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/30/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/31/frontend/components/RequestReset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/31/frontend/components/Reset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/31/frontend/pages/reset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/31/frontend/pages/signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/32/backend/src/mail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/32/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/33/backend/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/33/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/33/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/34/frontend/components/PleaseSignIn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/34/frontend/pages/sell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/35/backend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/35/backend/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/35/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/35/frontend/components/Permissions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/35/frontend/pages/permissions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/36/frontend/components/Permissions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/36/frontend/components/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/37/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/37/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/37/frontend/components/Permissions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/37/frontend/components/styles/Table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/38/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/38/frontend/components/DeleteItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/40/frontend/components/Cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/40/frontend/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/40/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/40/frontend/lib/withData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/41/backend/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/41/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/41/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/41/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/41/frontend/components/AddToCart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/41/frontend/components/Item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/42/frontend/components/AddToCart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/42/frontend/components/Cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/42/frontend/components/CartItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/42/frontend/components/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/43/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/43/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/43/frontend/components/CartItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/43/frontend/components/RemoveFromCart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/44/frontend/components/RemoveFromCart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/45/frontend/components/CartCount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/45/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/46/backend/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/46/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/46/frontend/components/CartItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/47/frontend/components/Cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/48/frontend/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/48/frontend/components/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/49/frontend/components/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/49/frontend/lib/withData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/50/frontend/components/Cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/50/frontend/components/TakeMyMoney.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/51/backend/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/51/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/51/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/51/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/51/frontend/components/TakeMyMoney.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/52/backend/src/resolvers/Mutation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/52/frontend/components/TakeMyMoney.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/backend/datamodel.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/backend/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/frontend/components/Cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/frontend/components/Order.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/frontend/components/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/frontend/components/TakeMyMoney.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/frontend/components/styles/OrderStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/53/frontend/pages/order.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/54/backend/src/resolvers/Query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/54/backend/src/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/54/frontend/components/OrderList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/54/frontend/pages/orders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/56/frontend/__tests__/formatMoney.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/56/frontend/__tests__/sample.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/57/frontend/__tests__/mocking.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/59/frontend/__tests__/CartCount.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/59/frontend/__tests__/Item.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/59/frontend/__tests__/__snapshots__/CartCount.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/59/frontend/__tests__/__snapshots__/Item.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/60/frontend/__tests__/SingleItem.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/60/frontend/__tests__/__snapshots__/SingleItem.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/60/frontend/components/SingleItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/62/frontend/__tests__/Nav.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/62/frontend/__tests__/Pagination.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/62/frontend/__tests__/PleaseSignIn.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/62/frontend/__tests__/__snapshots__/Nav.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/62/frontend/__tests__/__snapshots__/Pagination.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/62/frontend/components/Nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/62/frontend/components/Pagination.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/63/update.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/64/frontend/__tests__/Signup.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/64/frontend/__tests__/__snapshots__/Signup.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/64/frontend/components/Signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/64/frontend/components/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/65/frontend/__tests__/AddToCart.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/65/frontend/__tests__/Cart.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/65/frontend/__tests__/RemoveFromCart.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/65/frontend/components/AddToCart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/65/frontend/components/RemoveFromCart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/66/backend/prisma.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/66/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/66/frontend/__tests__/Order.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/66/frontend/__tests__/TakeMyMoney.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/66/frontend/__tests__/__snapshots__/Order.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/66/frontend/__tests__/__snapshots__/TakeMyMoney.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/66/frontend/components/Order.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-React/Advanced-React/stepped-solutions/66/frontend/components/TakeMyMoney.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/backend/src/createServer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/backend/src/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/_document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/variables.env.sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/backend/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/styles/NavStyles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Advanced-React" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Advanced-React/sick-fits/frontend/pages/sell.js" />
-        <option value="$PROJECT_DIR$/Advanced-React/sick-fits/frontend/pages/index.js" />
-        <option value="$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Meta.js" />
-        <option value="$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Header.js" />
-        <option value="$PROJECT_DIR$/Advanced-React/sick-fits/frontend/pages/_app.js" />
-        <option value="$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Page.js" />
-        <option value="$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Nav.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
-  </component>
+  <component name="ProjectId" id="1ULCgBWEdDBPFou5iAhPwsGlAkh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="wes-bos-react-adv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wes-bos-react-adv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wes-bos-react-adv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wes-bos-react-adv" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-React" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wes-bos-react-adv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wes-bos-react-adv" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-React" type="462c0819:PsiDirectoryNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wes-bos-react-adv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wes-bos-react-adv" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-React" type="462c0819:PsiDirectoryNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wes-bos-react-adv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wes-bos-react-adv" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-React" type="462c0819:PsiDirectoryNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sick-fits/frontend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -536,107 +90,28 @@
       <workItem from="1569398187446" duration="4215000" />
       <workItem from="1569843404427" duration="601000" />
       <workItem from="1572332407571" duration="1087000" />
+      <workItem from="1572333686188" duration="7128000" />
+      <workItem from="1572584899853" duration="933000" />
+      <workItem from="1573483165396" duration="1273000" />
+      <workItem from="1575126600888" duration="2581000" />
+      <workItem from="1575129765759" duration="20196000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24828000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24950495" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2802817" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/pages/sell.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/static/nprogress.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/pages/_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Meta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/styles/NavStyles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/backend/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-React/sick-fits/frontend/components/Page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
