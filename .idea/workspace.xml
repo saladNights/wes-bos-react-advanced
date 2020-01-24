@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6c35f-c995-4082-99ac-106fc0e9b31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/backend/src/createServer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/backend/src/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/_document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/UpdateItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/update.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/variables.env.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/sell.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/sell.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sick-fits/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sick-fits/frontend/components" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -47,11 +37,12 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend\components" />
+      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend\pages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +85,9 @@
       <workItem from="1572584899853" duration="933000" />
       <workItem from="1573483165396" duration="1273000" />
       <workItem from="1575126600888" duration="2581000" />
-      <workItem from="1575129765759" duration="20196000" />
+      <workItem from="1575129765759" duration="23379000" />
+      <workItem from="1579615419883" duration="7531000" />
+      <workItem from="1579842745443" duration="6372000" />
     </task>
     <servers />
   </component>

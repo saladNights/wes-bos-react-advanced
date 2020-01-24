@@ -14,7 +14,7 @@ class MyApp extends App {
 
 		pageProps.query = ctx.query;
 
-		return pageProps;
+		return  { pageProps };
 	}
 
 	render() {
