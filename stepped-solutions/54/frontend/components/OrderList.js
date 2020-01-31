@@ -39,7 +39,6 @@ class OrderList extends React.Component {
         {({ data: { orders }, loading, error }) => {
           if (loading) return <p>loading...</p>;
           if (error) return <Error erorr={error} />;
-          console.log(orders);
           return (
             <div>
               <h2>You have {orders.length} orders</h2>

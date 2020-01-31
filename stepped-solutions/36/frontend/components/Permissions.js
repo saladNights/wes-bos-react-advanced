@@ -73,7 +73,6 @@ class UserPermissions extends React.Component {
       updatedPermissions = updatedPermissions.filter(permission => permission !== checkbox.value);
     }
     this.setState({ permissions: updatedPermissions });
-    console.log(updatedPermissions);
   };
   render() {
     const user = this.props.user;

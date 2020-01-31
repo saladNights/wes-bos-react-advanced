@@ -11,8 +11,6 @@ const Mutations = {
       info
     );
 
-    console.log(item);
-
     return item;
   },
   // createDog(parent, args, ctx, info) {

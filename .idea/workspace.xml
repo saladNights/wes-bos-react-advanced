@@ -2,18 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6c35f-c995-4082-99ac-106fc0e9b31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/UpdateItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/backend/src/mail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Permissions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/PleaseSignin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/RequestReset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Reset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Signout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Singin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/permissions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/reset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/signup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/sell.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/sell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepped-solutions/15/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/15/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepped-solutions/25/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/25/backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepped-solutions/27/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/27/frontend/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepped-solutions/28/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/28/backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepped-solutions/35/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/35/backend/src/resolvers/Query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepped-solutions/36/frontend/components/Permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/36/frontend/components/Permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepped-solutions/54/frontend/components/OrderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/54/frontend/components/OrderList.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +60,13 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend\components" />
-      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend\components" />
+      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend\pages" />
+      <recent name="C:\projects\wes-bos-react-adv\sick-fits\frontend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,7 +111,13 @@
       <workItem from="1575126600888" duration="2581000" />
       <workItem from="1575129765759" duration="23379000" />
       <workItem from="1579615419883" duration="7531000" />
-      <workItem from="1579842745443" duration="6372000" />
+      <workItem from="1579842745443" duration="7727000" />
+      <workItem from="1579928966029" duration="6159000" />
+      <workItem from="1580016108440" duration="7365000" />
+      <workItem from="1580105504876" duration="9163000" />
+      <workItem from="1580132670511" duration="31000" />
+      <workItem from="1580188045585" duration="8101000" />
+      <workItem from="1580446570927" duration="8903000" />
     </task>
     <servers />
   </component>

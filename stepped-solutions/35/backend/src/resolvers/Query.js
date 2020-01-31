@@ -22,7 +22,6 @@ const Query = {
     if (!ctx.request.userId) {
       throw new Error('You must be logged in!');
     }
-    console.log(ctx.request.userId);
     // 2. Check if the user has the permissions to query all the users
     hasPermission(ctx.request.user, ['ADMIN', 'PERMISSIONUPDATE']);
 
