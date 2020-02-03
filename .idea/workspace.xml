@@ -2,41 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6c35f-c995-4082-99ac-106fc0e9b31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/backend/src/mail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Permissions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/PleaseSignin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/RequestReset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Reset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Signout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Singin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/permissions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/reset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/AddToCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CartCount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CartItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/RemoveFromCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/pages/sell.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/sell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepped-solutions/15/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/15/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepped-solutions/25/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/25/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepped-solutions/27/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/27/frontend/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepped-solutions/28/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/28/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepped-solutions/35/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/35/backend/src/resolvers/Query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepped-solutions/36/frontend/components/Permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/36/frontend/components/Permissions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepped-solutions/54/frontend/components/OrderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/stepped-solutions/54/frontend/components/OrderList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/styles/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/styles/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/lib/withData.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/lib/withData.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +100,8 @@
       <workItem from="1580105504876" duration="9163000" />
       <workItem from="1580132670511" duration="31000" />
       <workItem from="1580188045585" duration="8101000" />
-      <workItem from="1580446570927" duration="8903000" />
+      <workItem from="1580446570927" duration="9860000" />
+      <workItem from="1580535376267" duration="23669000" />
     </task>
     <servers />
   </component>

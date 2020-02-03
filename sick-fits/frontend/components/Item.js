@@ -4,6 +4,7 @@ import Link from 'next/link';
 import formatMoney from '../lib/formatMoney';
 
 import DeleteItem from './DeleteItem';
+import AddToCart from './AddToCart';
 
 import Title from './styles/Title';
 import ItemStyles from './styles/ItemStyles';
@@ -35,7 +36,7 @@ class Item extends Component {
 					>
 						<a>Edit</a>
 					</Link>
-					<button>Add to Cart</button>
+					<AddToCart id={item.id}/>
 					<DeleteItem id={item.id}>Delete Item</DeleteItem>
 				</div>
 			</ItemStyles>
