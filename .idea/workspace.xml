@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6c35f-c995-4082-99ac-106fc0e9b31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/AddToCart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CartCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CartItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/RemoveFromCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/TakeMyMoney.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/DeleteItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Permissions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/styles/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/styles/Table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/frontend/lib/withData.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/lib/withData.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +27,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -101,7 +89,8 @@
       <workItem from="1580132670511" duration="31000" />
       <workItem from="1580188045585" duration="8101000" />
       <workItem from="1580446570927" duration="9860000" />
-      <workItem from="1580535376267" duration="23669000" />
+      <workItem from="1580535376267" duration="23767000" />
+      <workItem from="1580833277310" duration="8774000" />
     </task>
     <servers />
   </component>

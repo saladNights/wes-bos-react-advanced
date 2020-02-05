@@ -4,6 +4,7 @@ import Nav from './Nav';
 import Link from 'next/link';
 import Router from 'next/router';
 import Cart from './Cart';
+import Search from './Search';
 
 
 import styled from 'styled-components';
@@ -71,7 +72,7 @@ const Header = () => (
 			<Nav />
 		</div>
 		<div className="sub-bar">
-			<p>Search</p>
+			<Search />
 		</div>
 		<Cart />
 	</StyledHeader>
