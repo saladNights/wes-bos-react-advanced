@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6c35f-c995-4082-99ac-106fc0e9b31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/TakeMyMoney.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Item.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/formatMoney.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/OrderList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/lib/withData.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/lib/withData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/TakeMyMoney.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/TakeMyMoney.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/styles/OrderItemStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/styles/OrderItemStyles.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sick-fits/frontend/components" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/sick-fits/frontend/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -51,6 +62,37 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Jest.formatMoney Function">
+    <configuration name="formatMoney Function" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/sick-fits/frontend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/sick-fits/frontend" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/sick-fits/frontend/__tests__/formatMoney.test.js" />
+      <test-names>
+        <test-name value="formatMoney Function" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/sick-fits/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.formatMoney Function" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,7 +132,9 @@
       <workItem from="1580188045585" duration="8101000" />
       <workItem from="1580446570927" duration="9860000" />
       <workItem from="1580535376267" duration="23767000" />
-      <workItem from="1580833277310" duration="8774000" />
+      <workItem from="1580833277310" duration="9206000" />
+      <workItem from="1581050939043" duration="9494000" />
+      <workItem from="1581138537286" duration="7363000" />
     </task>
     <servers />
   </component>
