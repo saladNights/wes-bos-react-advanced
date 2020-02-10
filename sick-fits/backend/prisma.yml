@@ -1,4 +1,8 @@
-endpoint: ${env:PRISMA_ENDPOINT}
+#endpoint: ${env:PRISMA_ENDPOINT}
+#endpoint: http://localhost:4466
+#endpoint: https://sf-prod-5a237eaaba.herokuapp.com/sf-prod/prod
+#endpoint: https://sf-prod-5a237eaaba.herokuapp.com/sf-service/prod
+endpoint: https://sf-prod-5a237eaaba.herokuapp.com/advanced-react-demo/dev
 datamodel: datamodel.graphql
 #secret: ${env:PRISMA_SECRET}
 hooks:

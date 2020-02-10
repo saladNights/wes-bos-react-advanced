@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6c35f-c995-4082-99ac-106fc0e9b31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/AddToCart.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Cart.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/CartCount.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/CreateItem.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Nav.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Pagination.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/PleaseSignin.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/RemoveFromCart.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/RequestReset.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Signup.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/SingleItem.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Item.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Item.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/AddToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/AddToCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/RemoveFromCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/RemoveFromCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/RequestReset.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/RequestReset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/TakeMyMoney.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/TakeMyMoney.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finished-application/backend/prisma.yml" beforeDir="false" afterPath="$PROJECT_DIR$/finished-application/backend/prisma.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/backend/prisma.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/prisma.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +138,8 @@
       <workItem from="1581050939043" duration="9494000" />
       <workItem from="1581138537286" duration="29740000" />
       <workItem from="1581337381030" duration="5072000" />
-      <workItem from="1581356861144" duration="44000" />
+      <workItem from="1581356861144" duration="3108000" />
+      <workItem from="1581361889596" duration="231000" />
     </task>
     <servers />
   </component>
