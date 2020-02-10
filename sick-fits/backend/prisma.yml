@@ -4,7 +4,7 @@
 #endpoint: https://sf-prod-5a237eaaba.herokuapp.com/sf-service/prod
 endpoint: https://sf-prod-5a237eaaba.herokuapp.com/advanced-react-demo/dev
 datamodel: datamodel.graphql
-#secret: ${env:PRISMA_SECRET}
+secret: ${env:PRISMA_SECRET}
 hooks:
   post-deploy:
     - graphql get-schema -p prisma

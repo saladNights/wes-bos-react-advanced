@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2fe6c35f-c995-4082-99ac-106fc0e9b31f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finished-application/backend/prisma.yml" beforeDir="false" afterPath="$PROJECT_DIR$/finished-application/backend/prisma.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/backend/prisma.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/prisma.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -139,7 +138,7 @@
       <workItem from="1581138537286" duration="29740000" />
       <workItem from="1581337381030" duration="5072000" />
       <workItem from="1581356861144" duration="3108000" />
-      <workItem from="1581361889596" duration="231000" />
+      <workItem from="1581361889596" duration="951000" />
     </task>
     <servers />
   </component>
