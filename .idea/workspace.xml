@@ -2,22 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6c35f-c995-4082-99ac-106fc0e9b31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Item.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/formatMoney.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/components/OrderList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/pages/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/AddToCart.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Cart.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/CartCount.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/CreateItem.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Nav.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Pagination.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/PleaseSignin.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/RemoveFromCart.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/RequestReset.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Signup.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/SingleItem.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/datamodel.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/generated/prisma.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/resolvers/Query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/backend/src/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Item.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/__tests__/Item.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/AddToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/AddToCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/CreateItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/RemoveFromCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/RemoveFromCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/RequestReset.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/RequestReset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/SingleItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/TakeMyMoney.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/TakeMyMoney.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/styles/OrderItemStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/styles/OrderItemStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/sick-fits/frontend/components/User.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +70,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.formatMoney Function">
+  <component name="RunManager" selected="Jest.Component.renders pagination for 18 items">
+    <configuration name="Component.renders pagination for 18 items" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/sick-fits/frontend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/sick-fits/frontend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/sick-fits/frontend/__tests__/Pagination.test.js" />
+      <test-names>
+        <test-name value="Component" />
+        <test-name value="renders pagination for 18 items" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="formatMoney Function" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -89,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Component.renders pagination for 18 items" />
         <item itemvalue="Jest.formatMoney Function" />
         <item itemvalue="npm.test" />
       </list>
@@ -134,7 +156,9 @@
       <workItem from="1580535376267" duration="23767000" />
       <workItem from="1580833277310" duration="9206000" />
       <workItem from="1581050939043" duration="9494000" />
-      <workItem from="1581138537286" duration="7363000" />
+      <workItem from="1581138537286" duration="29740000" />
+      <workItem from="1581337381030" duration="5072000" />
+      <workItem from="1581356861144" duration="44000" />
     </task>
     <servers />
   </component>

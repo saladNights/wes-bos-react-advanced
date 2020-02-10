@@ -26,7 +26,7 @@ const Pagination = props => (
 			const { page } =props;
 
 			return (
-				<PaginationStyles>
+				<PaginationStyles data-test='pagination'>
 					<Head>
 						<title>Sick Fits! — Page {page} of {pages}</title>
 					</Head>
@@ -41,7 +41,7 @@ const Pagination = props => (
 					>
 						<a className="prev" aria-disabled={page <= 1}>{'< Prev'}</a>
 					</Link>
-					<p>Page {page} of {pages}</p>
+					<p>Page {page} of <span className="total-pages">{pages}</span></p>
 					<p>{count} Items Total</p>
 					<Link
 						prefetch
@@ -61,3 +61,4 @@ const Pagination = props => (
 );
 
 export default Pagination;
+export { PAGINATION_QUERY };

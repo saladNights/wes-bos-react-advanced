@@ -1,5 +1,6 @@
 import ItemComponent from '../components/Item';
 import { shallow } from 'enzyme';
+import toJSON from 'enzyme-to-json';
 
 const fakeItem = {
 	id: '234rf2t',
@@ -11,26 +12,32 @@ const fakeItem = {
 };
 
 describe('Component', () => {
-	it('renders properly',  () => {
+	it('renders and matches the snapshot', () => {
 		const wrapper = shallow(<ItemComponent item={fakeItem} />);
-		const PriceTag = wrapper.find('ForwardRef(PriceTag)');
 
-		expect(PriceTag.children().text()).toBe('$50');
-		expect(wrapper.find('ForwardRef(Title) Link a').text()).toBe(fakeItem.title);
-
-		const img = wrapper.find('img');
-
-		expect(img.props().src).toBe(fakeItem.image);
-		expect(img.props().alt).toBe(fakeItem.title);
+		expect(toJSON(wrapper)).toMatchSnapshot();
 	});
 
-	it('renders out the buttons', () => {
-		const wrapper = shallow(<ItemComponent item={fakeItem} />);
-		const buttonList = wrapper.find('.buttonList');
-
-		expect(buttonList.children()).toHaveLength(3);
-		expect(buttonList.find('Link')).toHaveLength(1);
-		expect(buttonList.find('AddToCart')).toHaveLength(1);
-		expect(buttonList.find('DeleteItem')).toHaveLength(1);
-	});
+	// it('renders properly',  () => {
+	// 	const wrapper = shallow(<ItemComponent item={fakeItem} />);
+	// 	const PriceTag = wrapper.find('ForwardRef(PriceTag)');
+	//
+	// 	expect(PriceTag.children().text()).toBe('$50');
+	// 	expect(wrapper.find('ForwardRef(Title) Link a').text()).toBe(fakeItem.title);
+	//
+	// 	const img = wrapper.find('img');
+	//
+	// 	expect(img.props().src).toBe(fakeItem.image);
+	// 	expect(img.props().alt).toBe(fakeItem.title);
+	// });
+	//
+	// it('renders out the buttons', () => {
+	// 	const wrapper = shallow(<ItemComponent item={fakeItem} />);
+	// 	const buttonList = wrapper.find('.buttonList');
+	//
+	// 	expect(buttonList.children()).toHaveLength(3);
+	// 	expect(buttonList.find('Link')).toHaveLength(1);
+	// 	expect(buttonList.find('AddToCart')).toHaveLength(1);
+	// 	expect(buttonList.find('DeleteItem')).toHaveLength(1);
+	// });
 });

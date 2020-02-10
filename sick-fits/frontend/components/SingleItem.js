@@ -50,7 +50,7 @@ class SingleItem extends Component {
 				{({ error, loading, data }) => {
 					if (error) return <Error error={error} />;
 					if (loading) return <p>Loading...</p>;
-					if (!data.item) return <p>No data found for {this.props.id}</p>
+					if (!data.item) return <p>No data found for {this.props.id}</p>;
 
 					const { title, description, largeImage } = data.item;
 
@@ -73,3 +73,4 @@ class SingleItem extends Component {
 }
 
 export default SingleItem;
+export { SINGLE_ITEM_QUERY };

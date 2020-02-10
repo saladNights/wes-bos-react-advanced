@@ -81,7 +81,7 @@ class CreateItem extends Component {
 				variables={this.state}
 			>
 				{(createItem, { loading, error }) => (
-					<Form onSubmit={(e) => this.handleSubmit(e, createItem)}>
+					<Form data-test='form' onSubmit={(e) => this.handleSubmit(e, createItem)}>
 						<Error error={error}/>
 						<fieldset disabled={loading} aria-busy={loading}>
 							<label htmlFor="file">
